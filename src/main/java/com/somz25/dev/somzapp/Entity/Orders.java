@@ -31,8 +31,8 @@ public class Orders {
      Date orderdate;
 
     String orderby;
-//     Long modelid;
-//     String descrn;
+    Long modelid;
+  String descrn;
 
     @Column(precision = 10, scale = 2)
      BigDecimal price;
@@ -44,6 +44,7 @@ public class Orders {
 
     @Column(precision = 10, scale = 2)
      BigDecimal discount;
+
 
     @Column(precision = 10, scale = 2)
      BigDecimal salestax;

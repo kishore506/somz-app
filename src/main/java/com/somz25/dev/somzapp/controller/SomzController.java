@@ -66,7 +66,7 @@ public class SomzController {
     }
 
     // DELETE - Remove Dashboard by ID
-    @DeleteMapping("/pashboard/{id}")
+    @DeleteMapping("/dashboard/{id}")
     public String deleteDashboard(@PathVariable Long id) {
         somzService.deleteDashboard(id);
         return "Dashboard entry with ID " + id + " has been deleted";
